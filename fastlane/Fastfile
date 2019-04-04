@@ -165,6 +165,7 @@ lane :update_dependencies do
   sh "gem install bundler"
   sh "bundle update"
   sh "bundle exec pod update"
+  sh "bundle exec fastlane snapshot update"
 end
 
 desc "Delete cocoapods from the project and reinstall"

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196453CC2256958B0076B6EB /* PhotoStickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453CB2256958B0076B6EB /* PhotoStickersUITests.swift */; };
+		196453D3225696540076B6EB /* XCUIApplication+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 196453CF225696540076B6EB /* XCUIApplication+Extensions.m */; };
+		196453D4225696540076B6EB /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453D2225696540076B6EB /* SnapshotHelper.swift */; };
+		196453F12256A6380076B6EB /* StickerCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453E62256A6360076B6EB /* StickerCollectionViewModelTests.swift */; };
+		196453F32256A6380076B6EB /* StickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453E92256A6370076B6EB /* StickerTests.swift */; };
+		196453F42256A6380076B6EB /* ImageStoreServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453EB2256A6380076B6EB /* ImageStoreServiceMock.swift */; };
+		196453F52256A6380076B6EB /* StickerServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453EC2256A6380076B6EB /* StickerServiceMock.swift */; };
+		196453F62256A6380076B6EB /* ImageRenderServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196453ED2256A6380076B6EB /* ImageRenderServiceMock.swift */; };
+		196453F72256A6380076B6EB /* original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196453EF2256A6380076B6EB /* original.jpg */; };
+		196453F82256A6380076B6EB /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = 196453F02256A6380076B6EB /* sticker.png */; };
 		19DE76852253766700CF29AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DE76842253766700CF29AB /* Assets.xcassets */; };
 		19DE768C2253766700CF29AB /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19DE768B2253766700CF29AB /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		19DE76912253766700CF29AB /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DE76902253766700CF29AB /* Messages.framework */; };
@@ -67,6 +77,7 @@
 		19DE774D2253F2D900CF29AB /* EditStickerFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DE774C2253F2D900CF29AB /* EditStickerFlow.swift */; };
 		19DE774F2255F61300CF29AB /* WiggleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DE774E2255F61300CF29AB /* WiggleEffect.swift */; };
 		75899F2FCE8ECC2A4FD9FBBA /* Pods_PhotoStickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B954D5DAE75F01F82C678320 /* Pods_PhotoStickers.framework */; };
+		CBF5BE140988DD9215814924 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD6F7684878D18AC1DCA16E /* Pods_Tests.framework */; };
 		CE42A88ECC9BF65E160BBE4F /* Pods_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1056ED50A6BB83946FB40332 /* Pods_MessagesExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +107,23 @@
 
 /* Begin PBXFileReference section */
 		1056ED50A6BB83946FB40332 /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19027FF8933BCAE5B8878095 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		196453C3225695020076B6EB /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196453C7225695020076B6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196453CB2256958B0076B6EB /* PhotoStickersUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStickersUITests.swift; sourceTree = "<group>"; };
+		196453CE225696540076B6EB /* XCUIApplication+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIApplication+Extensions.h"; sourceTree = "<group>"; };
+		196453CF225696540076B6EB /* XCUIApplication+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIApplication+Extensions.m"; sourceTree = "<group>"; };
+		196453D0225696540076B6EB /* UITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		196453D2225696540076B6EB /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		196453DE2256A5F50076B6EB /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196453E22256A5F50076B6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196453E62256A6360076B6EB /* StickerCollectionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewModelTests.swift; sourceTree = "<group>"; };
+		196453E92256A6370076B6EB /* StickerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTests.swift; sourceTree = "<group>"; };
+		196453EB2256A6380076B6EB /* ImageStoreServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStoreServiceMock.swift; sourceTree = "<group>"; };
+		196453EC2256A6380076B6EB /* StickerServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerServiceMock.swift; sourceTree = "<group>"; };
+		196453ED2256A6380076B6EB /* ImageRenderServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRenderServiceMock.swift; sourceTree = "<group>"; };
+		196453EF2256A6380076B6EB /* original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpg; sourceTree = "<group>"; };
+		196453F02256A6380076B6EB /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
 		19DE76812253766600CF29AB /* PhotoStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DE76842253766700CF29AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19DE76862253766700CF29AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -163,7 +191,9 @@
 		19DE774C2253F2D900CF29AB /* EditStickerFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStickerFlow.swift; sourceTree = "<group>"; };
 		19DE774E2255F61300CF29AB /* WiggleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleEffect.swift; sourceTree = "<group>"; };
 		19DE7750225619A000CF29AB /* MessagesExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessagesExtension.entitlements; sourceTree = "<group>"; };
+		1AD6F7684878D18AC1DCA16E /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		325A088209BF78EB19F38DB5 /* Pods-PhotoStickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStickers.release.xcconfig"; path = "Target Support Files/Pods-PhotoStickers/Pods-PhotoStickers.release.xcconfig"; sourceTree = "<group>"; };
+		7503A94675CB9FABFE5895C7 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B954D5DAE75F01F82C678320 /* Pods_PhotoStickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B1FD638D084F4933920672 /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.release.xcconfig"; path = "Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
 		EDAD3D7EAA8D5D3322EC6856 /* Pods-PhotoStickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStickers.debug.xcconfig"; path = "Target Support Files/Pods-PhotoStickers/Pods-PhotoStickers.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +201,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		196453C0225695020076B6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196453DB2256A5F50076B6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF5BE140988DD9215814924 /* Pods_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19DE76882253766700CF29AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,11 +236,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196453C4225695020076B6EB /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				196453CB2256958B0076B6EB /* PhotoStickersUITests.swift */,
+				196453D1225696540076B6EB /* Snapshots */,
+				196453CD225696540076B6EB /* ObjC */,
+				196453D52256968E0076B6EB /* Supporting Files */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		196453CD225696540076B6EB /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				196453CE225696540076B6EB /* XCUIApplication+Extensions.h */,
+				196453CF225696540076B6EB /* XCUIApplication+Extensions.m */,
+				196453D0225696540076B6EB /* UITests-Bridging-Header.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		196453D1225696540076B6EB /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				196453D2225696540076B6EB /* SnapshotHelper.swift */,
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
+		196453D52256968E0076B6EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				196453C7225695020076B6EB /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		196453DF2256A5F50076B6EB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				196453E62256A6360076B6EB /* StickerCollectionViewModelTests.swift */,
+				196453E92256A6370076B6EB /* StickerTests.swift */,
+				196453EA2256A6380076B6EB /* Mocks */,
+				196453EE2256A6380076B6EB /* Resources */,
+				196453E72256A6370076B6EB /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		196453E72256A6370076B6EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				196453E22256A5F50076B6EB /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		196453EA2256A6380076B6EB /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				196453EB2256A6380076B6EB /* ImageStoreServiceMock.swift */,
+				196453EC2256A6380076B6EB /* StickerServiceMock.swift */,
+				196453ED2256A6380076B6EB /* ImageRenderServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		196453EE2256A6380076B6EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				196453EF2256A6380076B6EB /* original.jpg */,
+				196453F02256A6380076B6EB /* sticker.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		19DE767A2253766600CF29AB = {
 			isa = PBXGroup;
 			children = (
 				19DE76832253766600CF29AB /* App */,
 				19DE76922253766700CF29AB /* MessagesExtension */,
+				196453C4225695020076B6EB /* UITests */,
+				196453DF2256A5F50076B6EB /* Tests */,
 				19DE768F2253766700CF29AB /* Frameworks */,
 				19DE76822253766600CF29AB /* Products */,
 				43035F314911C7D9455D2FFD /* Pods */,
@@ -207,6 +330,8 @@
 			children = (
 				19DE76812253766600CF29AB /* PhotoStickers.app */,
 				19DE768B2253766700CF29AB /* MessagesExtension.appex */,
+				196453C3225695020076B6EB /* UITests.xctest */,
+				196453DE2256A5F50076B6EB /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +352,7 @@
 				19DE76902253766700CF29AB /* Messages.framework */,
 				1056ED50A6BB83946FB40332 /* Pods_MessagesExtension.framework */,
 				B954D5DAE75F01F82C678320 /* Pods_PhotoStickers.framework */,
+				1AD6F7684878D18AC1DCA16E /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -432,6 +558,8 @@
 				C2B1FD638D084F4933920672 /* Pods-MessagesExtension.release.xcconfig */,
 				EDAD3D7EAA8D5D3322EC6856 /* Pods-PhotoStickers.debug.xcconfig */,
 				325A088209BF78EB19F38DB5 /* Pods-PhotoStickers.release.xcconfig */,
+				19027FF8933BCAE5B8878095 /* Pods-Tests.debug.xcconfig */,
+				7503A94675CB9FABFE5895C7 /* Pods-Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -439,6 +567,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		196453C2225695020076B6EB /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196453CA225695020076B6EB /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				196453BF225695020076B6EB /* Sources */,
+				196453C0225695020076B6EB /* Frameworks */,
+				196453C1225695020076B6EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITests;
+			productName = UITests;
+			productReference = 196453C3225695020076B6EB /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		196453DD2256A5F50076B6EB /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196453E32256A5F50076B6EB /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				1FE34BD8A0A12D821C4203B9 /* [CP] Check Pods Manifest.lock */,
+				196453DA2256A5F50076B6EB /* Sources */,
+				196453DB2256A5F50076B6EB /* Frameworks */,
+				196453DC2256A5F50076B6EB /* Resources */,
+				1EFFDAFCA1758573205EAE85 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 196453DE2256A5F50076B6EB /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		19DE76802253766600CF29AB /* PhotoStickers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19DE76A12253766700CF29AB /* Build configuration list for PBXNativeTarget "PhotoStickers" */;
@@ -488,6 +652,12 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Jochen Pfeiffer";
 				TargetAttributes = {
+					196453C2225695020076B6EB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					196453DD2256A5F50076B6EB = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					19DE76802253766600CF29AB = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -517,11 +687,29 @@
 			targets = (
 				19DE76802253766600CF29AB /* PhotoStickers */,
 				19DE768A2253766700CF29AB /* MessagesExtension */,
+				196453C2225695020076B6EB /* UITests */,
+				196453DD2256A5F50076B6EB /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		196453C1225695020076B6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196453DC2256A5F50076B6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196453F82256A6380076B6EB /* sticker.png in Resources */,
+				196453F72256A6380076B6EB /* original.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19DE767F2253766600CF29AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,6 +774,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/App\" \"${SRCROOT}/MessagesExtension\" \"${SRCROOT}/Tests\" \"${SRCROOT}/UITests\"\n";
+		};
+		1EFFDAFCA1758573205EAE85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxNimble/RxNimble.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxNimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FE34BD8A0A12D821C4203B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		7DD6E37FE779D14F6DCDCD8A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -660,6 +902,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		196453BF225695020076B6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196453CC2256958B0076B6EB /* PhotoStickersUITests.swift in Sources */,
+				196453D3225696540076B6EB /* XCUIApplication+Extensions.m in Sources */,
+				196453D4225696540076B6EB /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196453DA2256A5F50076B6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196453F52256A6380076B6EB /* StickerServiceMock.swift in Sources */,
+				196453F32256A6380076B6EB /* StickerTests.swift in Sources */,
+				196453F42256A6380076B6EB /* ImageStoreServiceMock.swift in Sources */,
+				196453F12256A6380076B6EB /* StickerCollectionViewModelTests.swift in Sources */,
+				196453F62256A6380076B6EB /* ImageRenderServiceMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19DE76872253766700CF29AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,6 +1014,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		196453C8225695020076B6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TV9GXC7CB;
+				INFOPLIST_FILE = "UITests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jochen-pfeiffer.photo-stickers.uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UITests/ObjC/UITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196453C9225695020076B6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TV9GXC7CB;
+				INFOPLIST_FILE = "UITests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jochen-pfeiffer.photo-stickers.uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UITests/ObjC/UITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		196453E42256A5F50076B6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19027FF8933BCAE5B8878095 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TV9GXC7CB;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jochen-pfeiffer.photo-stickers.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196453E52256A5F50076B6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7503A94675CB9FABFE5895C7 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TV9GXC7CB;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jochen-pfeiffer.photo-stickers.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		19DE769B2253766700CF29AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -809,7 +1153,6 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Debug;
 		};
@@ -866,7 +1209,6 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Release;
 		};
@@ -959,6 +1301,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		196453CA225695020076B6EB /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196453C8225695020076B6EB /* Debug */,
+				196453C9225695020076B6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196453E32256A5F50076B6EB /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196453E42256A5F50076B6EB /* Debug */,
+				196453E52256A5F50076B6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		19DE767E2253766600CF29AB /* Build configuration list for PBXProject "PhotoStickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

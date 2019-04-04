@@ -44,5 +44,16 @@ target 'MessagesExtension' do
     pod 'Log'
     pod 'Zip'
     pod 'Reusable'
+
+
+    target 'Tests' do
+        inherit! :search_paths
+
+        pod 'RxTest'
+        pod 'RxBlocking'
+        pod 'Quick'
+        pod 'Nimble'
+        pod 'RxNimble'
+    end
 end
 

@@ -14,7 +14,7 @@ final class Application {
     private let stickerRenderService: StickerRenderService
 
     init() {
-        #if false
+        #if DEBUG
             // todo
             let dataFolderType = DataFolderType.documentsPrefilled(subfolder: "UITests")
         #else
