@@ -10,10 +10,8 @@ import XCTest
 
 class PhotoStickersUITests: XCTestCase {
     func testMessagesExtension() {
-//        let app = XCUIApplication()
-//        app.launchArguments += ["-RunningUITests", "true"]
-//        setupSnapshot(app)
-//        app.launch()
+        let app = XCUIApplication()
+        app.launch()
 //
 //        let stickerCollectionNavigtionBar = app.navigationBars["StickerCollectionNavigtionBar"]
 //        XCTAssert(stickerCollectionNavigtionBar.exists)
@@ -142,14 +140,8 @@ class PhotoStickersUITests: XCTestCase {
 
         sleep(2)
 
-        let collectionView = messageApp.collectionViews["StickerBrowserCollectionView"]
-        XCTAssert(collectionView.exists)
-
-        let sticker = collectionView.cells.element(boundBy: 5)
-        XCTAssert(sticker.exists)
-
+        let sticker = messageApp.collectionViews["StickerBrowserCollectionView"].cells.element(boundBy: 5)
         let messageCell = messageApp.collectionViews["TranscriptCollectionView"].cells.matching(NSPredicate(format: "label CONTAINS[c] %@", messageText)).firstMatch
-        XCTAssert(messageCell.exists)
 
         let cellWidth = messageCell.frame.size.width
         let rightDX = CGFloat(130)
